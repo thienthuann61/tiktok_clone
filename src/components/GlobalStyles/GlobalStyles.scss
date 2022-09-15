@@ -1,0 +1,31 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$primary-color: #fe2c55;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+:where(a) {
+    text-decoration: none;
+}
+
+:where(ul) {
+    list-style: none;
+}
