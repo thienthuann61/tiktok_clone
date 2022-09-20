@@ -8,6 +8,7 @@
     width: var(--main-layout-width, 1150px);
     min-height: 1000px;
     display: flex;
+    margin-top: var(--main-layout-header-height, 60px);
 }
 
 .content {
